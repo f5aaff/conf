@@ -1,0 +1,133 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Delete">
+      <i c="3" l="1701085591038" />
+    </e>
+    <e n="$Undo">
+      <i c="2" l="1700846441311" />
+    </e>
+    <e n="ActivateRunToolWindow">
+      <i c="3" l="1701085342441" />
+    </e>
+    <e n="CMake.CompileCurrentFile">
+      <i c="1" l="1701085425614" />
+    </e>
+    <e n="CMake.ReloadCMakeProject">
+      <i c="1" l="1700846455387" />
+    </e>
+    <e n="CPP.CreateCMakeProject">
+      <i c="5" l="1701085649132" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="161" l="1701086730237" />
+    </e>
+    <e n="EditorCut">
+      <i c="1" l="1701086249258" />
+    </e>
+    <e n="EditorDelete">
+      <i c="5" l="1701086735733" />
+    </e>
+    <e n="EditorDown">
+      <i c="43" l="1701086737429" />
+    </e>
+    <e n="EditorEnter">
+      <i c="16" l="1701086711830" />
+    </e>
+    <e n="EditorEscape">
+      <i c="2" l="1701086399547" />
+    </e>
+    <e n="EditorLeft">
+      <i c="152" l="1701086716614" />
+    </e>
+    <e n="EditorLeftWithSelection">
+      <i c="51" l="1701086685200" />
+    </e>
+    <e n="EditorRight">
+      <i c="315" l="1701086720093" />
+    </e>
+    <e n="EditorRightWithSelection">
+      <i c="89" l="1701086247943" />
+    </e>
+    <e n="EditorTab">
+      <i c="9" l="1701086719423" />
+    </e>
+    <e n="EditorTabsEntryPoint">
+      <i c="3" l="1701078619938" />
+    </e>
+    <e n="EditorUp">
+      <i c="38" l="1701086699894" />
+    </e>
+    <e n="EditorUpWithSelection">
+      <i c="10" l="1701086734044" />
+    </e>
+    <e n="MoreRunToolbarActions">
+      <i c="1" l="1700846146672" />
+    </e>
+    <e n="OpenFile">
+      <i c="1" l="1701085285669" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="2" l="1701085633978" />
+    </e>
+    <e n="Rerun">
+      <i c="6" l="1701086611736" />
+    </e>
+    <e n="Run">
+      <i c="2" l="1701085541682" />
+    </e>
+    <e n="SaveAll">
+      <i c="16" l="1701086740596" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="2" l="1700846180240" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="4" l="1701085823319" />
+    </e>
+    <e n="WelcomeScreen.OpenDirectoryProject">
+      <i c="1" l="1700846118363" />
+    </e>
+    <e n="com.intellij.diagnostic.IdeErrorsDialog$ForwardAction">
+      <i c="4" l="1701078866200" />
+    </e>
+    <e n="com.intellij.execution.impl.ConsoleViewImpl$DeleteBackspaceHandler">
+      <i c="1" l="1701086409496" />
+    </e>
+    <e n="com.intellij.execution.impl.ConsoleViewImpl$EnterHandler">
+      <i c="11" l="1701086746448" />
+    </e>
+    <e n="com.intellij.execution.lineMarker.LineMarkerActionWrapper">
+      <i c="8" l="1701086743766" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1701078839906" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="2" l="1701078561135" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="1" l="1701078900413" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="7" l="1701078625587" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="6" l="1701085646526" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="1" l="1700846096481" />
+    </e>
+    <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
+      <i c="4" l="1701085341060" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$ShowOptionsAction">
+      <i c="1" l="1701078616302" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$AddButton">
+      <i c="1" l="1701078594282" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="2" l="1701085634893" />
+    </e>
+  </component>
+</application>

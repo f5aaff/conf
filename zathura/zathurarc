@@ -1,0 +1,6 @@
+include catppuccin-mocha
+
+map D set "first-page-column 1:1"
+map <C-d> set "first-page-column 1:2"
+
+set recolor true
