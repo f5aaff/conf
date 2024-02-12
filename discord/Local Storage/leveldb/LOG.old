@@ -1,0 +1,6 @@
+2024/02/12-14:58:40.108 cc5 Reusing MANIFEST /home/f5adff/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/02/12-14:58:40.109 cc5 Recovering log #6
+2024/02/12-14:58:40.109 cc5 Reusing old log /home/f5adff/.config/discord/Local Storage/leveldb/000006.log 
+2024/02/12-15:01:10.392 d50 Level-0 table #10: started
+2024/02/12-15:01:10.434 d50 Level-0 table #10: 727485 bytes OK
+2024/02/12-15:01:10.447 d50 Delete type=0 #6

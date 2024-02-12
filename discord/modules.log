@@ -1,0 +1,643 @@
+2024-02-12T13:50:46.462Z [Modules] Modules initializing
+2024-02-12T13:50:46.462Z [Modules] Distribution: remote
+2024-02-12T13:50:46.462Z [Modules] Host updates: enabled
+2024-02-12T13:50:46.462Z [Modules] Module updates: enabled
+2024-02-12T13:50:46.462Z [Modules] Module install path: /home/f5adff/.config/discord/0.0.42/modules
+2024-02-12T13:50:46.462Z [Modules] Module installed file path: /home/f5adff/.config/discord/0.0.42/modules/installed.json
+2024-02-12T13:50:46.462Z [Modules] Module download path: /home/f5adff/.config/discord/0.0.42/modules/pending
+2024-02-12T13:50:46.569Z [Modules] Bootstrapping...
+2024-02-12T13:50:46.570Z [Modules] Installing discord_desktop_core@0 from /usr/lib64/discord/resources/bootstrap/discord_desktop_core.zip
+2024-02-12T13:50:46.572Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/usr/lib64/discord/resources/bootstrap/discord_desktop_core.zip'
+2024-02-12T13:50:46.572Z [Modules] Installing discord_erlpack@0 from /usr/lib64/discord/resources/bootstrap/discord_erlpack.zip
+2024-02-12T13:50:46.573Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/usr/lib64/discord/resources/bootstrap/discord_erlpack.zip'
+2024-02-12T13:50:46.573Z [Modules] Installing discord_spellcheck@0 from /usr/lib64/discord/resources/bootstrap/discord_spellcheck.zip
+2024-02-12T13:50:46.573Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/usr/lib64/discord/resources/bootstrap/discord_spellcheck.zip'
+2024-02-12T13:50:46.574Z [Modules] Installing discord_utils@0 from /usr/lib64/discord/resources/bootstrap/discord_utils.zip
+2024-02-12T13:50:46.574Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/usr/lib64/discord/resources/bootstrap/discord_utils.zip'
+2024-02-12T13:50:46.574Z [Modules] Installing discord_voice@0 from /usr/lib64/discord/resources/bootstrap/discord_voice.zip
+2024-02-12T13:50:46.575Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/usr/lib64/discord/resources/bootstrap/discord_voice.zip'
+2024-02-12T13:50:46.575Z [Modules] Finished module installations. [success: 0] [failure: 5]
+2024-02-12T13:50:46.575Z [Modules] Checking for host updates.
+2024-02-12T13:50:47.332Z [Modules] Host is up to date.
+2024-02-12T13:50:47.333Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-12T13:50:47.415Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2024-02-12T13:50:47.415Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2024-02-12T13:50:47.416Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2024-02-12T13:50:47.416Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2024-02-12T13:50:47.416Z [Modules] Module update available: discord_voice@2 [installed: 0]
+2024-02-12T13:50:47.417Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2024-02-12T13:50:47.417Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip
+2024-02-12T13:50:47.814Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 1%
+2024-02-12T13:50:47.822Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 2%
+2024-02-12T13:50:47.837Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 3%
+2024-02-12T13:50:47.846Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 4%
+2024-02-12T13:50:47.851Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 5%
+2024-02-12T13:50:47.859Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 6%
+2024-02-12T13:50:47.865Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 7%
+2024-02-12T13:50:47.871Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 8%
+2024-02-12T13:50:47.876Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 9%
+2024-02-12T13:50:47.889Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 11%
+2024-02-12T13:50:47.892Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 13%
+2024-02-12T13:50:47.901Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 14%
+2024-02-12T13:50:47.903Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 15%
+2024-02-12T13:50:47.910Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 17%
+2024-02-12T13:50:47.933Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 19%
+2024-02-12T13:50:47.936Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 21%
+2024-02-12T13:50:47.938Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 22%
+2024-02-12T13:50:47.941Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 25%
+2024-02-12T13:50:47.944Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 27%
+2024-02-12T13:50:47.947Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 28%
+2024-02-12T13:50:47.974Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 31%
+2024-02-12T13:50:47.977Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 32%
+2024-02-12T13:50:47.998Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 34%
+2024-02-12T13:50:48.001Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 37%
+2024-02-12T13:50:48.019Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 38%
+2024-02-12T13:50:48.022Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 40%
+2024-02-12T13:50:48.026Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 43%
+2024-02-12T13:50:48.028Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 45%
+2024-02-12T13:50:48.031Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 46%
+2024-02-12T13:50:48.033Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 48%
+2024-02-12T13:50:48.037Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 51%
+2024-02-12T13:50:48.040Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 52%
+2024-02-12T13:50:48.053Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 53%
+2024-02-12T13:50:48.055Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 54%
+2024-02-12T13:50:48.058Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 57%
+2024-02-12T13:50:48.062Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 58%
+2024-02-12T13:50:48.090Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 60%
+2024-02-12T13:50:48.100Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 62%
+2024-02-12T13:50:48.103Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 64%
+2024-02-12T13:50:48.105Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 66%
+2024-02-12T13:50:48.108Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 69%
+2024-02-12T13:50:48.111Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 70%
+2024-02-12T13:50:48.118Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 72%
+2024-02-12T13:50:48.121Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 74%
+2024-02-12T13:50:48.124Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 76%
+2024-02-12T13:50:48.126Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 78%
+2024-02-12T13:50:48.137Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 80%
+2024-02-12T13:50:48.154Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 82%
+2024-02-12T13:50:48.157Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 84%
+2024-02-12T13:50:48.159Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 86%
+2024-02-12T13:50:48.163Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 88%
+2024-02-12T13:50:48.177Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 90%
+2024-02-12T13:50:48.183Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 92%
+2024-02-12T13:50:48.188Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 94%
+2024-02-12T13:50:48.189Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 95%
+2024-02-12T13:50:48.190Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 96%
+2024-02-12T13:50:48.193Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 98%
+2024-02-12T13:50:48.195Z [Modules] Streaming discord_desktop_core@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip: 100%
+2024-02-12T13:50:48.198Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2024-02-12T13:50:48.198Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip
+2024-02-12T13:50:48.393Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 2%
+2024-02-12T13:50:48.396Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 4%
+2024-02-12T13:50:48.398Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 6%
+2024-02-12T13:50:48.400Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 7%
+2024-02-12T13:50:48.416Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 10%
+2024-02-12T13:50:48.421Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 12%
+2024-02-12T13:50:48.425Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 15%
+2024-02-12T13:50:48.431Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 16%
+2024-02-12T13:50:48.445Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 18%
+2024-02-12T13:50:48.454Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 21%
+2024-02-12T13:50:48.460Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 23%
+2024-02-12T13:50:48.463Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 25%
+2024-02-12T13:50:48.466Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 28%
+2024-02-12T13:50:48.469Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 30%
+2024-02-12T13:50:48.483Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 33%
+2024-02-12T13:50:48.489Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 34%
+2024-02-12T13:50:48.495Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 37%
+2024-02-12T13:50:48.508Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 40%
+2024-02-12T13:50:48.568Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 41%
+2024-02-12T13:50:48.571Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 44%
+2024-02-12T13:50:48.573Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 46%
+2024-02-12T13:50:48.582Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 49%
+2024-02-12T13:50:48.605Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 51%
+2024-02-12T13:50:48.615Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 53%
+2024-02-12T13:50:48.624Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 56%
+2024-02-12T13:50:48.676Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 58%
+2024-02-12T13:50:48.678Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 60%
+2024-02-12T13:50:48.690Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 63%
+2024-02-12T13:50:48.706Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 65%
+2024-02-12T13:50:48.721Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 67%
+2024-02-12T13:50:48.746Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 69%
+2024-02-12T13:50:48.749Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 72%
+2024-02-12T13:50:48.762Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 75%
+2024-02-12T13:50:48.766Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 78%
+2024-02-12T13:50:48.770Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 81%
+2024-02-12T13:50:48.783Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 83%
+2024-02-12T13:50:48.788Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 86%
+2024-02-12T13:50:48.801Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 87%
+2024-02-12T13:50:48.807Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 90%
+2024-02-12T13:50:48.811Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 92%
+2024-02-12T13:50:48.815Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 94%
+2024-02-12T13:50:48.818Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 97%
+2024-02-12T13:50:48.820Z [Modules] Streaming discord_erlpack@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip: 100%
+2024-02-12T13:50:48.822Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2024-02-12T13:50:48.823Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip
+2024-02-12T13:50:49.149Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 1%
+2024-02-12T13:50:49.167Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 2%
+2024-02-12T13:50:49.186Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 3%
+2024-02-12T13:50:49.194Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 4%
+2024-02-12T13:50:49.209Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 5%
+2024-02-12T13:50:49.221Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 6%
+2024-02-12T13:50:49.247Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 7%
+2024-02-12T13:50:49.257Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 8%
+2024-02-12T13:50:49.277Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 9%
+2024-02-12T13:50:49.307Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 10%
+2024-02-12T13:50:49.339Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 11%
+2024-02-12T13:50:49.358Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 12%
+2024-02-12T13:50:49.363Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 13%
+2024-02-12T13:50:49.369Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 14%
+2024-02-12T13:50:49.378Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 15%
+2024-02-12T13:50:49.391Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 16%
+2024-02-12T13:50:49.401Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 17%
+2024-02-12T13:50:49.412Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 18%
+2024-02-12T13:50:49.434Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 19%
+2024-02-12T13:50:49.465Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 20%
+2024-02-12T13:50:49.474Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 21%
+2024-02-12T13:50:49.499Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 22%
+2024-02-12T13:50:49.514Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 23%
+2024-02-12T13:50:49.522Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 24%
+2024-02-12T13:50:49.527Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 25%
+2024-02-12T13:50:49.532Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 26%
+2024-02-12T13:50:49.555Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 27%
+2024-02-12T13:50:49.583Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 28%
+2024-02-12T13:50:49.614Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 29%
+2024-02-12T13:50:49.623Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 30%
+2024-02-12T13:50:49.631Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 31%
+2024-02-12T13:50:49.638Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 32%
+2024-02-12T13:50:49.651Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 33%
+2024-02-12T13:50:49.663Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 34%
+2024-02-12T13:50:49.683Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 35%
+2024-02-12T13:50:49.705Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 36%
+2024-02-12T13:50:49.728Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 37%
+2024-02-12T13:50:49.734Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 38%
+2024-02-12T13:50:49.746Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 39%
+2024-02-12T13:50:49.766Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 40%
+2024-02-12T13:50:49.784Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 41%
+2024-02-12T13:50:49.792Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 42%
+2024-02-12T13:50:49.809Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 43%
+2024-02-12T13:50:49.842Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 44%
+2024-02-12T13:50:49.853Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 45%
+2024-02-12T13:50:49.862Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 46%
+2024-02-12T13:50:49.893Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 47%
+2024-02-12T13:50:49.897Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 48%
+2024-02-12T13:50:49.904Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 49%
+2024-02-12T13:50:49.908Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 50%
+2024-02-12T13:50:49.920Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 51%
+2024-02-12T13:50:49.943Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 52%
+2024-02-12T13:50:49.949Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 53%
+2024-02-12T13:50:49.962Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 54%
+2024-02-12T13:50:49.982Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 55%
+2024-02-12T13:50:50.008Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 56%
+2024-02-12T13:50:50.029Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 57%
+2024-02-12T13:50:50.036Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 58%
+2024-02-12T13:50:50.056Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 59%
+2024-02-12T13:50:50.071Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 60%
+2024-02-12T13:50:50.090Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 61%
+2024-02-12T13:50:50.108Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 62%
+2024-02-12T13:50:50.120Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 63%
+2024-02-12T13:50:50.132Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 64%
+2024-02-12T13:50:50.138Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 65%
+2024-02-12T13:50:50.145Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 66%
+2024-02-12T13:50:50.153Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 67%
+2024-02-12T13:50:50.158Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 68%
+2024-02-12T13:50:50.182Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 69%
+2024-02-12T13:50:50.199Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 70%
+2024-02-12T13:50:50.205Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 71%
+2024-02-12T13:50:50.240Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 72%
+2024-02-12T13:50:50.248Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 73%
+2024-02-12T13:50:50.255Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 74%
+2024-02-12T13:50:50.263Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 75%
+2024-02-12T13:50:50.302Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 76%
+2024-02-12T13:50:50.325Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 77%
+2024-02-12T13:50:50.345Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 78%
+2024-02-12T13:50:50.350Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 79%
+2024-02-12T13:50:50.359Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 80%
+2024-02-12T13:50:50.364Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 81%
+2024-02-12T13:50:50.371Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 82%
+2024-02-12T13:50:50.380Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 83%
+2024-02-12T13:50:50.386Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 84%
+2024-02-12T13:50:50.429Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 85%
+2024-02-12T13:50:50.450Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 86%
+2024-02-12T13:50:50.461Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 87%
+2024-02-12T13:50:50.511Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 88%
+2024-02-12T13:50:50.518Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 89%
+2024-02-12T13:50:50.533Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 90%
+2024-02-12T13:50:50.559Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 91%
+2024-02-12T13:50:50.566Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 92%
+2024-02-12T13:50:50.582Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 93%
+2024-02-12T13:50:50.609Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 94%
+2024-02-12T13:50:50.616Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 95%
+2024-02-12T13:50:50.624Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 96%
+2024-02-12T13:50:50.629Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 97%
+2024-02-12T13:50:50.638Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 98%
+2024-02-12T13:50:50.645Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 99%
+2024-02-12T13:50:50.648Z [Modules] Streaming discord_spellcheck@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip: 100%
+2024-02-12T13:50:50.651Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2024-02-12T13:50:50.651Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip
+2024-02-12T13:50:50.987Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 2%
+2024-02-12T13:50:50.996Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 3%
+2024-02-12T13:50:51.001Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 4%
+2024-02-12T13:50:51.004Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 5%
+2024-02-12T13:50:51.006Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 6%
+2024-02-12T13:50:51.017Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 7%
+2024-02-12T13:50:51.022Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 9%
+2024-02-12T13:50:51.026Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 10%
+2024-02-12T13:50:51.029Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 11%
+2024-02-12T13:50:51.035Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 12%
+2024-02-12T13:50:51.041Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 13%
+2024-02-12T13:50:51.048Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 14%
+2024-02-12T13:50:51.056Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 16%
+2024-02-12T13:50:51.061Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 17%
+2024-02-12T13:50:51.065Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 18%
+2024-02-12T13:50:51.071Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 19%
+2024-02-12T13:50:51.084Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 21%
+2024-02-12T13:50:51.087Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 22%
+2024-02-12T13:50:51.090Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 24%
+2024-02-12T13:50:51.097Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 25%
+2024-02-12T13:50:51.103Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 27%
+2024-02-12T13:50:51.106Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 28%
+2024-02-12T13:50:51.120Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 29%
+2024-02-12T13:50:51.123Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 31%
+2024-02-12T13:50:51.137Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 33%
+2024-02-12T13:50:51.146Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 34%
+2024-02-12T13:50:51.174Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 35%
+2024-02-12T13:50:51.176Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 37%
+2024-02-12T13:50:51.188Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 38%
+2024-02-12T13:50:51.199Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 39%
+2024-02-12T13:50:51.201Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 41%
+2024-02-12T13:50:51.211Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 43%
+2024-02-12T13:50:51.215Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 44%
+2024-02-12T13:50:51.217Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 45%
+2024-02-12T13:50:51.220Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 47%
+2024-02-12T13:50:51.223Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 48%
+2024-02-12T13:50:51.226Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 49%
+2024-02-12T13:50:51.242Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 51%
+2024-02-12T13:50:51.251Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 53%
+2024-02-12T13:50:51.260Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 54%
+2024-02-12T13:50:51.266Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 55%
+2024-02-12T13:50:51.271Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 57%
+2024-02-12T13:50:51.279Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 58%
+2024-02-12T13:50:51.282Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 59%
+2024-02-12T13:50:51.285Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 61%
+2024-02-12T13:50:51.300Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 63%
+2024-02-12T13:50:51.305Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 64%
+2024-02-12T13:50:51.308Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 65%
+2024-02-12T13:50:51.313Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 67%
+2024-02-12T13:50:51.324Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 68%
+2024-02-12T13:50:51.334Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 70%
+2024-02-12T13:50:51.337Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 71%
+2024-02-12T13:50:51.340Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 73%
+2024-02-12T13:50:51.352Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 74%
+2024-02-12T13:50:51.358Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 75%
+2024-02-12T13:50:51.367Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 77%
+2024-02-12T13:50:51.379Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 78%
+2024-02-12T13:50:51.381Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 80%
+2024-02-12T13:50:51.386Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 81%
+2024-02-12T13:50:51.389Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 83%
+2024-02-12T13:50:51.392Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 84%
+2024-02-12T13:50:51.400Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 85%
+2024-02-12T13:50:51.409Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 87%
+2024-02-12T13:50:51.422Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 88%
+2024-02-12T13:50:51.425Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 90%
+2024-02-12T13:50:51.428Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 91%
+2024-02-12T13:50:51.430Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 93%
+2024-02-12T13:50:51.432Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 94%
+2024-02-12T13:50:51.434Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 96%
+2024-02-12T13:50:51.438Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 97%
+2024-02-12T13:50:51.444Z [Modules] Streaming discord_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip: 100%
+2024-02-12T13:50:51.445Z [Modules] Fetching discord_voice@2 from https://discord.com/api/modules/stable/discord_voice/2
+2024-02-12T13:50:51.446Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip
+2024-02-12T13:50:51.737Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 1%
+2024-02-12T13:50:51.779Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 2%
+2024-02-12T13:50:51.825Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 3%
+2024-02-12T13:50:51.855Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 4%
+2024-02-12T13:50:51.881Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 5%
+2024-02-12T13:50:51.954Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 6%
+2024-02-12T13:50:52.003Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 7%
+2024-02-12T13:50:52.039Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 8%
+2024-02-12T13:50:52.064Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 9%
+2024-02-12T13:50:52.126Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 10%
+2024-02-12T13:50:52.175Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 11%
+2024-02-12T13:50:52.190Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 12%
+2024-02-12T13:50:52.224Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 13%
+2024-02-12T13:50:52.260Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 14%
+2024-02-12T13:50:52.303Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 15%
+2024-02-12T13:50:52.330Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 16%
+2024-02-12T13:50:52.405Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 17%
+2024-02-12T13:50:52.445Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 18%
+2024-02-12T13:50:52.477Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 19%
+2024-02-12T13:50:52.512Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 20%
+2024-02-12T13:50:52.535Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 21%
+2024-02-12T13:50:52.613Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 22%
+2024-02-12T13:50:52.635Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 23%
+2024-02-12T13:50:52.665Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 24%
+2024-02-12T13:50:52.683Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 25%
+2024-02-12T13:50:52.731Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 26%
+2024-02-12T13:50:52.776Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 27%
+2024-02-12T13:50:52.823Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 28%
+2024-02-12T13:50:52.865Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 29%
+2024-02-12T13:50:52.926Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 30%
+2024-02-12T13:50:52.940Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 31%
+2024-02-12T13:50:52.985Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 32%
+2024-02-12T13:50:53.026Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 33%
+2024-02-12T13:50:53.058Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 34%
+2024-02-12T13:50:53.104Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 35%
+2024-02-12T13:50:53.150Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 36%
+2024-02-12T13:50:53.171Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 37%
+2024-02-12T13:50:53.234Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 38%
+2024-02-12T13:50:53.286Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 39%
+2024-02-12T13:50:53.301Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 40%
+2024-02-12T13:50:53.341Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 41%
+2024-02-12T13:50:53.394Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 42%
+2024-02-12T13:50:53.442Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 43%
+2024-02-12T13:50:53.480Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 44%
+2024-02-12T13:50:53.517Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 45%
+2024-02-12T13:50:53.554Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 46%
+2024-02-12T13:50:53.598Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 47%
+2024-02-12T13:50:53.639Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 48%
+2024-02-12T13:50:53.675Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 49%
+2024-02-12T13:50:53.693Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 50%
+2024-02-12T13:50:53.731Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 51%
+2024-02-12T13:50:53.767Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 52%
+2024-02-12T13:50:53.837Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 53%
+2024-02-12T13:50:53.882Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 54%
+2024-02-12T13:50:53.930Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 55%
+2024-02-12T13:50:53.948Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 56%
+2024-02-12T13:50:53.974Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 57%
+2024-02-12T13:50:54.028Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 58%
+2024-02-12T13:50:54.079Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 59%
+2024-02-12T13:50:54.117Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 60%
+2024-02-12T13:50:54.160Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 61%
+2024-02-12T13:50:54.207Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 62%
+2024-02-12T13:50:54.238Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 63%
+2024-02-12T13:50:54.306Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 64%
+2024-02-12T13:50:54.330Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 65%
+2024-02-12T13:50:54.356Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 66%
+2024-02-12T13:50:54.428Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 67%
+2024-02-12T13:50:54.477Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 68%
+2024-02-12T13:50:54.501Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 69%
+2024-02-12T13:50:54.523Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 70%
+2024-02-12T13:50:54.550Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 71%
+2024-02-12T13:50:54.601Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 72%
+2024-02-12T13:50:54.632Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 73%
+2024-02-12T13:50:54.672Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 74%
+2024-02-12T13:50:54.710Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 75%
+2024-02-12T13:50:54.746Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 76%
+2024-02-12T13:50:54.812Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 77%
+2024-02-12T13:50:54.886Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 78%
+2024-02-12T13:50:54.904Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 79%
+2024-02-12T13:50:54.925Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 80%
+2024-02-12T13:50:54.955Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 81%
+2024-02-12T13:50:54.991Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 82%
+2024-02-12T13:50:55.053Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 83%
+2024-02-12T13:50:55.083Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 84%
+2024-02-12T13:50:55.121Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 85%
+2024-02-12T13:50:55.164Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 86%
+2024-02-12T13:50:55.188Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 87%
+2024-02-12T13:50:55.229Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 88%
+2024-02-12T13:50:55.266Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 89%
+2024-02-12T13:50:55.331Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 90%
+2024-02-12T13:50:55.351Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 91%
+2024-02-12T13:50:55.394Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 92%
+2024-02-12T13:50:55.421Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 93%
+2024-02-12T13:50:55.471Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 94%
+2024-02-12T13:50:55.510Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 95%
+2024-02-12T13:50:55.559Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 96%
+2024-02-12T13:50:55.587Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 97%
+2024-02-12T13:50:55.646Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 98%
+2024-02-12T13:50:55.667Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 99%
+2024-02-12T13:50:55.692Z [Modules] Streaming discord_voice@2 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip: 100%
+2024-02-12T13:50:55.693Z [Modules] Finished module downloads. [success: 5] [failure: 0]
+2024-02-12T13:50:55.694Z [Modules] Installing updates...
+2024-02-12T13:50:55.694Z [Modules] Installing discord_desktop_core@1 from /home/f5adff/.config/discord/0.0.42/modules/pending/discord_desktop_core-1.zip
+2024-02-12T13:50:55.766Z [Modules] Installing discord_erlpack@1 from /home/f5adff/.config/discord/0.0.42/modules/pending/discord_erlpack-1.zip
+2024-02-12T13:50:55.803Z [Modules] Installing discord_spellcheck@1 from /home/f5adff/.config/discord/0.0.42/modules/pending/discord_spellcheck-1.zip
+2024-02-12T13:50:56.263Z [Modules] Installing discord_utils@1 from /home/f5adff/.config/discord/0.0.42/modules/pending/discord_utils-1.zip
+2024-02-12T13:50:56.345Z [Modules] Installing discord_voice@2 from /home/f5adff/.config/discord/0.0.42/modules/pending/discord_voice-2.zip
+2024-02-12T13:50:56.766Z [Modules] Finished module installations. [success: 5] [failure: 0]
+2024-02-12T13:50:56.766Z [Modules] Checking for host updates.
+2024-02-12T13:50:56.971Z [Modules] Host is up to date.
+2024-02-12T13:50:56.971Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-12T13:50:56.976Z [Modules] No module updates available.
+2024-02-12T13:50:58.638Z [Modules] Starting to install discord_krisp...
+2024-02-12T13:50:58.638Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2024-02-12T13:50:58.638Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip
+2024-02-12T13:50:58.643Z [Modules] Starting to install discord_game_utils...
+2024-02-12T13:50:58.909Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 1%
+2024-02-12T13:50:58.933Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 2%
+2024-02-12T13:50:58.985Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 3%
+2024-02-12T13:50:59.064Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 4%
+2024-02-12T13:50:59.141Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 5%
+2024-02-12T13:50:59.203Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 6%
+2024-02-12T13:50:59.257Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 7%
+2024-02-12T13:50:59.355Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 8%
+2024-02-12T13:50:59.407Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 9%
+2024-02-12T13:50:59.446Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 10%
+2024-02-12T13:50:59.470Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 11%
+2024-02-12T13:50:59.504Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 12%
+2024-02-12T13:50:59.541Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 13%
+2024-02-12T13:50:59.546Z [Modules] Checking for host updates.
+2024-02-12T13:50:59.582Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 14%
+2024-02-12T13:50:59.604Z [Modules] Starting to install discord_rpc...
+2024-02-12T13:50:59.624Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 15%
+2024-02-12T13:50:59.657Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 16%
+2024-02-12T13:50:59.689Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 17%
+2024-02-12T13:50:59.733Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 18%
+2024-02-12T13:50:59.784Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 19%
+2024-02-12T13:50:59.809Z [Modules] Host is up to date.
+2024-02-12T13:50:59.809Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-12T13:50:59.813Z [Modules] No module updates available.
+2024-02-12T13:50:59.821Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 20%
+2024-02-12T13:50:59.865Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 21%
+2024-02-12T13:50:59.898Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 22%
+2024-02-12T13:51:00.004Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 25%
+2024-02-12T13:51:00.030Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 26%
+2024-02-12T13:51:00.069Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 27%
+2024-02-12T13:51:00.092Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 28%
+2024-02-12T13:51:00.126Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 29%
+2024-02-12T13:51:00.172Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 30%
+2024-02-12T13:51:00.184Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 31%
+2024-02-12T13:51:00.226Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 32%
+2024-02-12T13:51:00.250Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 33%
+2024-02-12T13:51:00.301Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 34%
+2024-02-12T13:51:00.332Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 35%
+2024-02-12T13:51:00.359Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 36%
+2024-02-12T13:51:00.383Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 37%
+2024-02-12T13:51:00.434Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 38%
+2024-02-12T13:51:00.461Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 39%
+2024-02-12T13:51:00.529Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 40%
+2024-02-12T13:51:00.551Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 41%
+2024-02-12T13:51:00.584Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 42%
+2024-02-12T13:51:00.606Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 43%
+2024-02-12T13:51:00.638Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 44%
+2024-02-12T13:51:00.657Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 45%
+2024-02-12T13:51:00.685Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 46%
+2024-02-12T13:51:00.730Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 47%
+2024-02-12T13:51:00.747Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 48%
+2024-02-12T13:51:00.789Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 49%
+2024-02-12T13:51:00.845Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 50%
+2024-02-12T13:51:00.864Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 51%
+2024-02-12T13:51:00.885Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 52%
+2024-02-12T13:51:00.911Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 53%
+2024-02-12T13:51:00.952Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 54%
+2024-02-12T13:51:01.024Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 55%
+2024-02-12T13:51:01.040Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 56%
+2024-02-12T13:51:01.058Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 57%
+2024-02-12T13:51:01.074Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 58%
+2024-02-12T13:51:01.106Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 59%
+2024-02-12T13:51:01.137Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 60%
+2024-02-12T13:51:01.178Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 61%
+2024-02-12T13:51:01.217Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 62%
+2024-02-12T13:51:01.245Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 63%
+2024-02-12T13:51:01.281Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 64%
+2024-02-12T13:51:01.303Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 65%
+2024-02-12T13:51:01.337Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 66%
+2024-02-12T13:51:01.408Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 67%
+2024-02-12T13:51:01.441Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 68%
+2024-02-12T13:51:01.459Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 69%
+2024-02-12T13:51:01.497Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 70%
+2024-02-12T13:51:01.529Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 71%
+2024-02-12T13:51:01.556Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 72%
+2024-02-12T13:51:01.584Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 73%
+2024-02-12T13:51:01.650Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 74%
+2024-02-12T13:51:01.665Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 75%
+2024-02-12T13:51:01.685Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 76%
+2024-02-12T13:51:01.705Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 77%
+2024-02-12T13:51:01.737Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 78%
+2024-02-12T13:51:01.757Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 79%
+2024-02-12T13:51:01.816Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 80%
+2024-02-12T13:51:01.835Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 81%
+2024-02-12T13:51:01.873Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 82%
+2024-02-12T13:51:01.889Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 83%
+2024-02-12T13:51:01.919Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 84%
+2024-02-12T13:51:01.954Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 85%
+2024-02-12T13:51:01.987Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 86%
+2024-02-12T13:51:02.005Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 87%
+2024-02-12T13:51:02.055Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 88%
+2024-02-12T13:51:02.080Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 89%
+2024-02-12T13:51:02.106Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 90%
+2024-02-12T13:51:02.124Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 91%
+2024-02-12T13:51:02.190Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 92%
+2024-02-12T13:51:02.219Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 93%
+2024-02-12T13:51:02.271Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 94%
+2024-02-12T13:51:02.287Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 95%
+2024-02-12T13:51:02.326Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 96%
+2024-02-12T13:51:02.364Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 97%
+2024-02-12T13:51:02.396Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 98%
+2024-02-12T13:51:02.414Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 99%
+2024-02-12T13:51:02.437Z [Modules] Streaming discord_krisp@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip: 100%
+2024-02-12T13:51:02.440Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2024-02-12T13:51:02.440Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip
+2024-02-12T13:51:02.440Z [Modules] Installing discord_krisp@1 from /home/f5adff/.config/discord/0.0.42/modules/pending/discord_krisp-1.zip
+2024-02-12T13:51:02.748Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-02-12T13:51:02.749Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 1%
+2024-02-12T13:51:02.755Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 2%
+2024-02-12T13:51:02.759Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 3%
+2024-02-12T13:51:02.770Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 4%
+2024-02-12T13:51:02.778Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 6%
+2024-02-12T13:51:02.782Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 8%
+2024-02-12T13:51:02.786Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 9%
+2024-02-12T13:51:02.793Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 11%
+2024-02-12T13:51:02.799Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 13%
+2024-02-12T13:51:02.803Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 14%
+2024-02-12T13:51:02.810Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 16%
+2024-02-12T13:51:02.820Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 18%
+2024-02-12T13:51:02.824Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 20%
+2024-02-12T13:51:02.828Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 21%
+2024-02-12T13:51:02.831Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 22%
+2024-02-12T13:51:02.832Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 23%
+2024-02-12T13:51:02.838Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 24%
+2024-02-12T13:51:02.841Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 25%
+2024-02-12T13:51:02.859Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 28%
+2024-02-12T13:51:02.859Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 29%
+2024-02-12T13:51:02.869Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 31%
+2024-02-12T13:51:02.878Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 33%
+2024-02-12T13:51:02.884Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 34%
+2024-02-12T13:51:02.894Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 36%
+2024-02-12T13:51:02.911Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 38%
+2024-02-12T13:51:02.915Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 40%
+2024-02-12T13:51:02.917Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 42%
+2024-02-12T13:51:02.920Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 43%
+2024-02-12T13:51:02.925Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 45%
+2024-02-12T13:51:02.927Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 47%
+2024-02-12T13:51:02.930Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 49%
+2024-02-12T13:51:02.933Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 50%
+2024-02-12T13:51:02.948Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 51%
+2024-02-12T13:51:02.950Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 52%
+2024-02-12T13:51:02.953Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 54%
+2024-02-12T13:51:02.961Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 56%
+2024-02-12T13:51:02.968Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 58%
+2024-02-12T13:51:02.972Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 60%
+2024-02-12T13:51:02.984Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 62%
+2024-02-12T13:51:03.000Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 64%
+2024-02-12T13:51:03.003Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 66%
+2024-02-12T13:51:03.011Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 67%
+2024-02-12T13:51:03.017Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 69%
+2024-02-12T13:51:03.020Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 71%
+2024-02-12T13:51:03.030Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 73%
+2024-02-12T13:51:03.041Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 75%
+2024-02-12T13:51:03.054Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 76%
+2024-02-12T13:51:03.061Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 78%
+2024-02-12T13:51:03.068Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 80%
+2024-02-12T13:51:03.073Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 81%
+2024-02-12T13:51:03.079Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 82%
+2024-02-12T13:51:03.080Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 83%
+2024-02-12T13:51:03.084Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 85%
+2024-02-12T13:51:03.088Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 87%
+2024-02-12T13:51:03.090Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 88%
+2024-02-12T13:51:03.094Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 90%
+2024-02-12T13:51:03.097Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 92%
+2024-02-12T13:51:03.101Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 94%
+2024-02-12T13:51:03.104Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 95%
+2024-02-12T13:51:03.106Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 97%
+2024-02-12T13:51:03.109Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 99%
+2024-02-12T13:51:03.110Z [Modules] Streaming discord_game_utils@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip: 100%
+2024-02-12T13:51:03.112Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2024-02-12T13:51:03.112Z [Modules] Streaming discord_rpc@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_rpc-1.zip
+2024-02-12T13:51:03.112Z [Modules] Installing discord_game_utils@1 from /home/f5adff/.config/discord/0.0.42/modules/pending/discord_game_utils-1.zip
+2024-02-12T13:51:03.201Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-02-12T13:51:03.310Z [Modules] Streaming discord_rpc@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_rpc-1.zip: 38%
+2024-02-12T13:51:03.311Z [Modules] Streaming discord_rpc@1 to /home/f5adff/.config/discord/0.0.42/modules/pending/discord_rpc-1.zip: 100%
+2024-02-12T13:51:03.312Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2024-02-12T13:51:03.313Z [Modules] Installing discord_rpc@1 from /home/f5adff/.config/discord/0.0.42/modules/pending/discord_rpc-1.zip
+2024-02-12T13:51:03.332Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-02-12T14:58:40.117Z [Modules] Modules initializing
+2024-02-12T14:58:40.117Z [Modules] Distribution: remote
+2024-02-12T14:58:40.117Z [Modules] Host updates: enabled
+2024-02-12T14:58:40.118Z [Modules] Module updates: enabled
+2024-02-12T14:58:40.118Z [Modules] Module install path: /home/f5adff/.config/discord/0.0.42/modules
+2024-02-12T14:58:40.118Z [Modules] Module installed file path: /home/f5adff/.config/discord/0.0.42/modules/installed.json
+2024-02-12T14:58:40.118Z [Modules] Module download path: /home/f5adff/.config/discord/0.0.42/modules/pending
+2024-02-12T14:58:40.236Z [Modules] No updates to install
+2024-02-12T14:58:40.236Z [Modules] Checking for host updates.
+2024-02-12T14:58:40.539Z [Modules] Host is up to date.
+2024-02-12T14:58:40.539Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-12T14:58:40.592Z [Modules] No module updates available.
+2024-02-12T14:58:42.512Z [Modules] Checking for host updates.
+2024-02-12T14:58:42.674Z [Modules] Host is up to date.
+2024-02-12T14:58:42.674Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-12T14:58:42.679Z [Modules] No module updates available.
+2024-02-12T15:58:42.515Z [Modules] Checking for host updates.
+2024-02-12T15:58:42.715Z [Modules] Host is up to date.
+2024-02-12T15:58:42.716Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-12T15:58:42.755Z [Modules] No module updates available.
+2024-02-12T16:58:42.513Z [Modules] Checking for host updates.
+2024-02-12T16:58:42.736Z [Modules] Host is up to date.
+2024-02-12T16:58:42.736Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-12T16:58:42.772Z [Modules] No module updates available.
+2024-02-12T17:58:46.371Z [Modules] Modules initializing
+2024-02-12T17:58:46.371Z [Modules] Distribution: remote
+2024-02-12T17:58:46.371Z [Modules] Host updates: enabled
+2024-02-12T17:58:46.371Z [Modules] Module updates: enabled
+2024-02-12T17:58:46.372Z [Modules] Module install path: /home/f5adff/.config/discord/0.0.42/modules
+2024-02-12T17:58:46.372Z [Modules] Module installed file path: /home/f5adff/.config/discord/0.0.42/modules/installed.json
+2024-02-12T17:58:46.372Z [Modules] Module download path: /home/f5adff/.config/discord/0.0.42/modules/pending
+2024-02-12T17:58:46.485Z [Modules] No updates to install
+2024-02-12T17:58:46.485Z [Modules] Checking for host updates.
+2024-02-12T17:58:46.846Z [Modules] Host is up to date.
+2024-02-12T17:58:46.846Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-12T17:58:46.895Z [Modules] No module updates available.
+2024-02-12T17:58:48.639Z [Modules] Checking for host updates.
+2024-02-12T17:58:48.788Z [Modules] Host is up to date.
+2024-02-12T17:58:48.789Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-02-12T17:58:48.791Z [Modules] No module updates available.

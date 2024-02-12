@@ -1,0 +1,40 @@
+2024-02-06 21:42:58.614 [info] Started local extension host with pid 15506.
+2024-02-06 21:42:58.656 [info] Started initializing default profile extensions in extensions installation folder. file:///home/f5adff/.vscode/extensions
+2024-02-06 21:42:58.869 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/f5adff/.vscode/extensions Unable to create file 'vscode-userdata:/home/f5adff/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-02-06 21:42:58.870 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/f5adff/.vscode/extensions
+2024-02-06 21:43:01.577 [info] [perf] Render performance baseline is 19ms
+2024-02-06 21:43:07.079 [error] Error while searching for themes: Canceled
+2024-02-06 21:43:07.452 [error] Error while searching for themes: Canceled
+2024-02-06 21:43:07.870 [error] Error while searching for themes: Canceled
+2024-02-06 21:43:08.136 [error] Error while searching for themes: Canceled
+2024-02-06 21:43:14.200 [error] Cancelled: Canceled
+    at re.B (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:782:32466)
+    at async re.z (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:782:29361)
+    at async re.z (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:782:30301)
+    at async ne (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:782:28369)
+    at async re.query (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:782:28590)
+    at async oe.queryGallery (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2741:11958)
+    at async te.Ac (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2677:22427)
+    at async te.lc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2677:14478)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2677:12777
+2024-02-06 21:43:14.200 [error] Cancelled: Canceled
+    at re.B (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:782:32466)
+    at async re.z (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:782:29361)
+    at async re.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:782:26345)
+    at async oe.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2741:12374)
+    at async fe.Ec (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2677:24452)
+    at async fe.Nc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2677:27116)
+    at async fe.lc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2677:14478)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2677:12777
+2024-02-06 21:43:30.503 [error] Cancelled: Canceled
+    at re.B (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:782:32466)
+    at async re.z (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:782:29361)
+    at async re.z (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:782:30301)
+    at async ne (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:782:28369)
+    at async re.query (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:782:28590)
+    at async oe.queryGallery (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2741:11958)
+    at async te.Ac (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2677:22427)
+    at async te.lc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2677:14478)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2677:12777
+2024-02-06 21:43:50.832 [error] [EQuimper.react-native-react-redux]: Unknown language in `contributes.react-native-react-redux.language`. Provided value: jsx
+2024-02-06 21:43:53.682 [error] [EQuimper.react-native-react-redux]: Unknown language in `contributes.react-native-react-redux.language`. Provided value: jsx

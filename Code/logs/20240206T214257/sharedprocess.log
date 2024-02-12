@@ -1,0 +1,119 @@
+2024-02-06 21:42:58.789 [info] Started initializing default profile extensions in extensions installation folder. file:///home/f5adff/.vscode/extensions
+2024-02-06 21:42:58.849 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/f5adff/.vscode/extensions
+2024-02-06 21:42:58.935 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/f5adff/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/f5adff/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-06 21:42:59.175 [error] [uncaught exception in sharedProcess]: Event not found: onDidChange: CodeExpectedError: Event not found: onDidChange
+    at Object.listen (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:45:4959)
+    at E.t (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:44:251)
+    at E.q (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:4371)
+    at w.value (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:43:3602)
+    at d.y (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1902)
+    at d.z (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:1972)
+    at d.fire (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:38:2188)
+    at MessagePortMain.de (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:36:30422)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-02-06 21:43:22.867 [info] Getting Manifest... dooez.alt-catppuccin-vsc
+2024-02-06 21:43:22.880 [info] Installing extension: dooez.alt-catppuccin-vsc
+2024-02-06 21:43:24.536 [info] Extension signature is verified: dooez.alt-catppuccin-vsc
+2024-02-06 21:43:24.581 [info] Extracted extension to file:///home/f5adff/.vscode/extensions/dooez.alt-catppuccin-vsc-2.7.4: dooez.alt-catppuccin-vsc
+2024-02-06 21:43:24.597 [info] Renamed to /home/f5adff/.vscode/extensions/dooez.alt-catppuccin-vsc-2.7.4
+2024-02-06 21:43:24.598 [info] Extracting extension completed. dooez.alt-catppuccin-vsc
+2024-02-06 21:43:24.611 [info] Extension installed successfully: dooez.alt-catppuccin-vsc
+2024-02-06 21:43:24.682 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/f5adff/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/f5adff/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-06 21:43:39.492 [info] Getting Manifest... zhang-renyang.vscode-react
+2024-02-06 21:43:39.498 [info] Installing extension: zhang-renyang.vscode-react
+2024-02-06 21:43:40.463 [info] Extension signature is verified: zhang-renyang.vscode-react
+2024-02-06 21:43:40.467 [info] Extracted extension to file:///home/f5adff/.vscode/extensions/zhang-renyang.vscode-react-0.0.5: zhang-renyang.vscode-react
+2024-02-06 21:43:40.483 [info] Renamed to /home/f5adff/.vscode/extensions/zhang-renyang.vscode-react-0.0.5
+2024-02-06 21:43:40.484 [info] Extracting extension completed. zhang-renyang.vscode-react
+2024-02-06 21:43:40.497 [info] Extension installed successfully: zhang-renyang.vscode-react
+2024-02-06 21:43:40.564 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/f5adff/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/f5adff/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-06 21:43:44.819 [info] Getting Manifest... dsznajder.es7-react-js-snippets
+2024-02-06 21:43:44.828 [info] Installing extension: dsznajder.es7-react-js-snippets
+2024-02-06 21:43:46.440 [info] Extension signature is verified: dsznajder.es7-react-js-snippets
+2024-02-06 21:43:46.558 [info] Extracted extension to file:///home/f5adff/.vscode/extensions/dsznajder.es7-react-js-snippets-4.4.3: dsznajder.es7-react-js-snippets
+2024-02-06 21:43:46.575 [info] Renamed to /home/f5adff/.vscode/extensions/dsznajder.es7-react-js-snippets-4.4.3
+2024-02-06 21:43:46.578 [info] Extracting extension completed. dsznajder.es7-react-js-snippets
+2024-02-06 21:43:46.595 [info] Extension installed successfully: dsznajder.es7-react-js-snippets
+2024-02-06 21:43:46.619 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/f5adff/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/f5adff/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-06 21:43:47.135 [info] Getting Manifest... msjsdiag.vscode-react-native
+2024-02-06 21:43:47.145 [info] Installing extension: msjsdiag.vscode-react-native
+2024-02-06 21:43:47.516 [info] Getting Manifest... ms-vscode.js-debug
+2024-02-06 21:43:48.499 [info] Getting Manifest... burkeholland.simple-react-snippets
+2024-02-06 21:43:48.507 [info] Installing extension: burkeholland.simple-react-snippets
+2024-02-06 21:43:49.180 [info] Extension signature is verified: msjsdiag.vscode-react-native
+2024-02-06 21:43:49.294 [info] Extracted extension to file:///home/f5adff/.vscode/extensions/msjsdiag.vscode-react-native-1.12.3: msjsdiag.vscode-react-native
+2024-02-06 21:43:49.303 [info] Renamed to /home/f5adff/.vscode/extensions/msjsdiag.vscode-react-native-1.12.3
+2024-02-06 21:43:49.305 [info] Extracting extension completed. msjsdiag.vscode-react-native
+2024-02-06 21:43:49.317 [info] Extension installed successfully: msjsdiag.vscode-react-native
+2024-02-06 21:43:49.359 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/f5adff/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/f5adff/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-06 21:43:49.669 [info] Getting Manifest... equimper.react-native-react-redux
+2024-02-06 21:43:49.676 [info] Installing extension: equimper.react-native-react-redux
+2024-02-06 21:43:50.344 [info] Extension signature is verified: burkeholland.simple-react-snippets
+2024-02-06 21:43:50.390 [info] Extracted extension to file:///home/f5adff/.vscode/extensions/burkeholland.simple-react-snippets-1.2.7: burkeholland.simple-react-snippets
+2024-02-06 21:43:50.406 [info] Renamed to /home/f5adff/.vscode/extensions/burkeholland.simple-react-snippets-1.2.7
+2024-02-06 21:43:50.407 [info] Extracting extension completed. burkeholland.simple-react-snippets
+2024-02-06 21:43:50.415 [info] Extension installed successfully: burkeholland.simple-react-snippets
+2024-02-06 21:43:50.485 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/f5adff/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/f5adff/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-06 21:43:50.611 [info] Extension signature is verified: equimper.react-native-react-redux
+2024-02-06 21:43:50.614 [info] Extracted extension to file:///home/f5adff/.vscode/extensions/equimper.react-native-react-redux-2.0.6: equimper.react-native-react-redux
+2024-02-06 21:43:50.630 [info] Renamed to /home/f5adff/.vscode/extensions/equimper.react-native-react-redux-2.0.6
+2024-02-06 21:43:50.631 [info] Extracting extension completed. equimper.react-native-react-redux
+2024-02-06 21:43:50.641 [info] Extension installed successfully: equimper.react-native-react-redux
+2024-02-06 21:43:50.710 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/f5adff/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/f5adff/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
+2024-02-06 21:43:52.659 [info] Getting Manifest... infeng.vscode-react-typescript
+2024-02-06 21:43:52.665 [info] Installing extension: infeng.vscode-react-typescript
+2024-02-06 21:43:53.620 [info] Extension signature is verified: infeng.vscode-react-typescript
+2024-02-06 21:43:53.623 [info] Extracted extension to file:///home/f5adff/.vscode/extensions/infeng.vscode-react-typescript-1.3.1: infeng.vscode-react-typescript
+2024-02-06 21:43:53.639 [info] Renamed to /home/f5adff/.vscode/extensions/infeng.vscode-react-typescript-1.3.1
+2024-02-06 21:43:53.640 [info] Extracting extension completed. infeng.vscode-react-typescript
+2024-02-06 21:43:53.654 [info] Extension installed successfully: infeng.vscode-react-typescript
+2024-02-06 21:43:53.722 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/f5adff/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/f5adff/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30119)
+    at a (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30234)
+    at i.fb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36631)
+    at i.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:29077)
+    at async v.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:16223)
+    at async Y.tb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:108626)
